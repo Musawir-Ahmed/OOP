@@ -1,0 +1,11 @@
+E:\C#\WEEK-6\Project\bin\Debug\netcoreapp3.1\Project.exe
+E:\C#\WEEK-6\Project\bin\Debug\netcoreapp3.1\Project.deps.json
+E:\C#\WEEK-6\Project\bin\Debug\netcoreapp3.1\Project.runtimeconfig.json
+E:\C#\WEEK-6\Project\bin\Debug\netcoreapp3.1\Project.runtimeconfig.dev.json
+E:\C#\WEEK-6\Project\bin\Debug\netcoreapp3.1\Project.dll
+E:\C#\WEEK-6\Project\bin\Debug\netcoreapp3.1\Project.pdb
+E:\C#\WEEK-6\Project\obj\Debug\netcoreapp3.1\Project.csprojAssemblyReference.cache
+E:\C#\WEEK-6\Project\obj\Debug\netcoreapp3.1\Project.AssemblyInfoInputs.cache
+E:\C#\WEEK-6\Project\obj\Debug\netcoreapp3.1\Project.AssemblyInfo.cs
+E:\C#\WEEK-6\Project\obj\Debug\netcoreapp3.1\Project.dll
+E:\C#\WEEK-6\Project\obj\Debug\netcoreapp3.1\Project.pdb

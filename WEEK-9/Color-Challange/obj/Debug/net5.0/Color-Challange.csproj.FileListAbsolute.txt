@@ -1,0 +1,16 @@
+E:\C#\WEEK-9\Color-Challange\bin\Debug\net5.0\Color-Challange.exe
+E:\C#\WEEK-9\Color-Challange\bin\Debug\net5.0\Color-Challange.deps.json
+E:\C#\WEEK-9\Color-Challange\bin\Debug\net5.0\Color-Challange.runtimeconfig.json
+E:\C#\WEEK-9\Color-Challange\bin\Debug\net5.0\Color-Challange.runtimeconfig.dev.json
+E:\C#\WEEK-9\Color-Challange\bin\Debug\net5.0\Color-Challange.dll
+E:\C#\WEEK-9\Color-Challange\bin\Debug\net5.0\ref\Color-Challange.dll
+E:\C#\WEEK-9\Color-Challange\bin\Debug\net5.0\Color-Challange.pdb
+E:\C#\WEEK-9\Color-Challange\obj\Debug\net5.0\Color-Challange.csprojAssemblyReference.cache
+E:\C#\WEEK-9\Color-Challange\obj\Debug\net5.0\Color-Challange.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\WEEK-9\Color-Challange\obj\Debug\net5.0\Color-Challange.AssemblyInfoInputs.cache
+E:\C#\WEEK-9\Color-Challange\obj\Debug\net5.0\Color-Challange.AssemblyInfo.cs
+E:\C#\WEEK-9\Color-Challange\obj\Debug\net5.0\Color-Challange.csproj.CoreCompileInputs.cache
+E:\C#\WEEK-9\Color-Challange\obj\Debug\net5.0\Color-Challange.dll
+E:\C#\WEEK-9\Color-Challange\obj\Debug\net5.0\ref\Color-Challange.dll
+E:\C#\WEEK-9\Color-Challange\obj\Debug\net5.0\Color-Challange.pdb
+E:\C#\WEEK-9\Color-Challange\obj\Debug\net5.0\Color-Challange.genruntimeconfig.cache

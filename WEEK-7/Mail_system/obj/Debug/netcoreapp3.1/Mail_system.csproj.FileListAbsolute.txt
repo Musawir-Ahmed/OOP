@@ -1,0 +1,11 @@
+E:\C#\WEEK-7\Mail_system\obj\Debug\netcoreapp3.1\Mail_system.csprojAssemblyReference.cache
+E:\C#\WEEK-7\Mail_system\obj\Debug\netcoreapp3.1\Mail_system.AssemblyInfoInputs.cache
+E:\C#\WEEK-7\Mail_system\obj\Debug\netcoreapp3.1\Mail_system.AssemblyInfo.cs
+E:\C#\WEEK-7\Mail_system\bin\Debug\netcoreapp3.1\Mail_system.exe
+E:\C#\WEEK-7\Mail_system\bin\Debug\netcoreapp3.1\Mail_system.deps.json
+E:\C#\WEEK-7\Mail_system\bin\Debug\netcoreapp3.1\Mail_system.runtimeconfig.json
+E:\C#\WEEK-7\Mail_system\bin\Debug\netcoreapp3.1\Mail_system.runtimeconfig.dev.json
+E:\C#\WEEK-7\Mail_system\bin\Debug\netcoreapp3.1\Mail_system.dll
+E:\C#\WEEK-7\Mail_system\bin\Debug\netcoreapp3.1\Mail_system.pdb
+E:\C#\WEEK-7\Mail_system\obj\Debug\netcoreapp3.1\Mail_system.dll
+E:\C#\WEEK-7\Mail_system\obj\Debug\netcoreapp3.1\Mail_system.pdb
