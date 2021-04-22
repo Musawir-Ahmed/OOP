@@ -1,0 +1,39 @@
+.icon {
+  margin-top: 20px;
+  color: white;
+}
+
+.barheading {
+  padding-left: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+.top {
+  font-size: 24px;
+  padding-left: 15px;
+}
+
+.topcolor {
+  font-size: larger;
+  color: rgba(119, 113, 109, 0.945);
+}
+
+.input {
+  padding-left: 30px;
+  width: 500px;
+}
+
+.timetablebutton {
+  padding-left: 500px;
+  size: 30%;
+}
+
+.tablecolor {
+  background-color: black;
+  color: white;
+}
+.gpacalculator_buttons {
+  margin-top: 40px;
+  padding-left: 240px;
+}

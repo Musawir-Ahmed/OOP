@@ -1,0 +1,186 @@
+{% extends "INDEX.html" %}
+
+{% block title %}
+GPA CALCULATOR
+{% endblock %}
+
+{% block heading %}
+<br>
+<div class="topcolor">
+
+    <p>
+        <b class="top">
+            GPA CALCULATOR &nbsp;&nbsp;
+        </b>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-calculator"
+            viewBox="0 0 16 16">
+            <path
+                d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z" />
+            <path
+                d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z" />
+        </svg>
+
+    </p>
+</div>
+
+{% endblock%}
+
+{% block body %}
+<h3 style="padding-left: 30px; text-align: center;"><b></b></h3>
+
+<form action="/gpadata" method="POST">
+    <div class="gpacalculator_buttons">
+        <table>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <th style="text-align: center;">
+                    <b> COURSE NAME</b>
+                </th>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <th style="text-align: center;">
+                    <b> CREDITS</b>
+                </th>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <th style="text-align: center;">
+                    <b> GRADE</b>
+                </th>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" class="form-control" placeholder="COURSE NAME ">
+
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="CREDIT HOUR" name="credithour1">
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="GRADE" name="grade1">
+                </td>
+            </tr>
+            <tr>&nbsp;&nbsp;&nbsp;</tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" class="form-control" placeholder="COURSE NAME ">
+
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="CREDIT HOUR" name="credithour2">
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="GRADE" name="grade2">
+                </td>
+            </tr>
+            <tr>&nbsp;&nbsp;&nbsp;</tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" class="form-control" placeholder="COURSE NAME ">
+
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="CREDIT HOUR" name="credithour3">
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="GRADE" name="grade3">
+                </td>
+            </tr>
+            <tr>&nbsp;&nbsp;&nbsp;</tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" class="form-control" placeholder="COURSE NAME ">
+
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="CREDIT HOUR" name="credithour4">
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="GRADE" name="grade4">
+                </td>
+            </tr>
+            <tr>&nbsp;&nbsp;&nbsp;</tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" class="form-control" placeholder="COURSE NAME ">
+
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="CREDIT HOUR" name="credithour5">
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="GRADE" name="grade5">
+                </td>
+        </table>
+        <table>
+            <tr>&nbsp;&nbsp;&nbsp;</tr>
+
+
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td style="border: solid rgb(172, 170, 170) 2px; ">
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    {{result}}
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                <td><a href="/TIMETABLE">
+                        <button class="btn btn-secondary" style="width:115px;"><b>CALCULATE</b></button>
+                    </a></td>
+            </tr>
+        </table>
+    </div>
+</form>
+
+
+
+
+
+
+
+
+
+{% endblock %}

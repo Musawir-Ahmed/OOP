@@ -1,0 +1,115 @@
+{% extends "INDEX.html" %}
+
+{% block title %}
+TIME TABLE
+{% endblock %}
+
+
+{% block heading %}
+<br>
+<div class="topcolor">
+
+    <p>
+        <b class="top">
+            TIME TABLE &nbsp;&nbsp;
+        </b>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-table"
+            viewBox="0 0 16 16">
+            <path
+                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z" />
+        </svg>
+
+    </p>
+</div>
+{% endblock%}
+
+
+{% block body %}
+<h3 style="padding-left: 30px;"><b>ENTER YOUR TIME TABLE :</b></h3>
+<br>
+
+<form action="/data" method="POST">
+    <div class="form-group input-group-lg input">
+        <label for="formGroupExampleInput"><b>ENTER DAY</b></label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="DAY" name="day"
+            required="RQUIRED">
+        <br>
+        <label for="formGroupExampleInput2">ENTER TEACHER NAME</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="TEACHER NAME"
+            name="teachername" required="RQUIRED">
+        <br>
+        <label for="formGroupExampleInput2">ENTER TIME </label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="TIME" name="time"
+            required="RQUIRED">
+        <br>
+        <label for="formGroupExampleInput2">ENTER SUBJECT NAME </label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="SUBJECT" name="subject"
+            required="RQUIRED">
+
+    </div>
+    <br>
+
+    <div class="btn-group timetablebutton" role="group" aria-label="Basic example">
+        <a href="/TIMETABLE">
+            <button class="btn btn-secondary" style="width:95px;">ADD</button>
+        </a>
+    </div>
+</form>
+<div class="btn-group timetablebutton" role="group" aria-label="Basic example">
+    <br>
+    <a href="/RELOAD:TIME:TABLE">
+        <button class="btn btn-secondary">RELOAD</button>
+    </a>
+</div>
+<br>
+<br>
+<br>
+<div style="padding-left:30px;">
+    <table class="table table-dark">
+        <thead class="tablecolor">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">DAY</th>
+                <th scope="col">TEACHER</th>
+                <th scope="col">TIME</th>
+                <th scope="col">SUBJECT</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            {%for i in range(0,len)%}
+            <tr>
+                <td>
+                    {{i+1}}
+                </td>
+                <td>
+                    {{day[i]}}
+                </td>
+                <td>
+                    {{teachername[i]}}
+                </td>
+                <td>
+                    {{time[i]}}
+                </td>
+                <td>
+                    {{subject[i]}}
+                </td>
+            </tr>
+            {% endfor %}
+
+
+
+
+
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+
+{% endblock%}
